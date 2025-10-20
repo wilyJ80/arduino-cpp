@@ -10,8 +10,13 @@ public:
 	void update();
 
 private:
-	unsigned long _prev;
 	LiquidCrystal_I2C _lcd;
 };
+
+namespace LCDConfig {
+	constexpr uint8_t ADDRESS = 0x27;
+	constexpr uint8_t COLS = 16;
+	constexpr uint8_t ROWS = 2;
+}
 
 #endif

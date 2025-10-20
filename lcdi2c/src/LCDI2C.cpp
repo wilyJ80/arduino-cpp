@@ -2,7 +2,7 @@
 #include "LiquidCrystal_I2C.h"
 #include <Arduino.h>
 
-LCDI2C::LCDI2C(uint8_t lcdAddress, uint8_t cols, uint8_t rows) : _prev(0), _lcd(lcdAddress, cols, rows) {
+LCDI2C::LCDI2C(uint8_t lcdAddress, uint8_t cols, uint8_t rows) : _lcd(lcdAddress, cols, rows) {
 
 }
 
