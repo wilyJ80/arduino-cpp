@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "LCDI2C.h"
 
-LCDI2C LCDI2C(0x27, 16, 2);
+LCDI2C LCDI2C(LCDConfig::ADDRESS, LCDConfig::COLS, LCDConfig::ROWS);
 
 void setup() {
 	LCDI2C.begin();
