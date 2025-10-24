@@ -1,11 +1,11 @@
 #include "Led.h"
-#include "pins_arduino.h"
 #include <Arduino.h>
 
 Led led;
 
 void setup() {
 	led.begin(LED_BUILTIN);
+	led.setLogging();
 }
 
 void loop() {
