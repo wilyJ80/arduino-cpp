@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "-isystem"
+    - "/home/vic/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+    - "-isystem"
+    - "/home/vic/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+    - "-isystem"
+    - "/home/vic/.platformio/packages/toolchain-atmelavr/avr/include"
